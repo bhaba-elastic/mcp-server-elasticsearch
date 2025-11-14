@@ -144,3 +144,34 @@ Configuration for Claude Desktop (free edition that only supports the stdio prot
       }
     }
     ```
+
+## Customer Support Knowledge Agent UI (Demo)
+
+This repository includes a demo React-based UI that showcases how the Elasticsearch MCP Server can power a Customer Support Knowledge Agent. The UI demonstrates searching historical tickets and knowledge base articles.
+
+### Quick Start
+
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+The application will open in your browser at `http://localhost:3000`.
+
+### Features
+
+- 🔍 Search customer issues by natural language description
+- 🤖 AI-powered resolution recommendations
+- 📋 Similar historical ticket references
+- 📚 Relevant knowledge base articles
+- 📝 Ready-to-use customer response templates
+
+For detailed instructions, see [frontend/README.md](frontend/README.md).
+
+**Note:** This is a demo UI with mock data. To connect it to real Elasticsearch data, you would need to implement a backend API that uses the MCP server.
